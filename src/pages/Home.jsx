@@ -1,5 +1,15 @@
 export const Home = () => {
     return (
-        <div style={{ color: 'blue' }}>  Welcome to the Home Page</div>
+        <div className="min-h-screen ">
+         {/* Theme Toggle */}
+
+         {/* Background Effect */}
+
+         {/* Navbar */}
+
+         {/* Main Content */}
+
+         {/* Footer */}
+        </div>
     )
 }
