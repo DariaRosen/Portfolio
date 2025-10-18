@@ -50,7 +50,7 @@ export const StarBackground = () => {
 
     // Function to generate a few meteors
     const generateMeteors = () => {
-        const numberOfMeteors = 4; // Fixed number of meteors
+        const numberOfMeteors = 5; // Fixed number of meteors
         const newMeteors = [];
 
         for (let i = 0; i < numberOfMeteors; i++) {
@@ -93,8 +93,8 @@ export const StarBackground = () => {
                     key={meteor.id}                 // Unique key for React
                     className="meteor animate-meteor" // Tailwind class for meteor animation
                     style={{
-                        width: meteor.size * 50 + "px",  // Meteor length (scaled)
-                        height: meteor.size * 2 + "px",  // Meteor thickness
+                        width: meteor.size * 40 + "px",  // Meteor length (scaled)
+                        height: meteor.size * 1 + "px",  // Meteor thickness
                         left: meteor.x + "%",            // Start horizontal position
                         top: meteor.y + "%",             // Start vertical position
                         animationDelay: meteor.delay + "s", // Delay before animation starts
