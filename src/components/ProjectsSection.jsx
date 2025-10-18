@@ -15,22 +15,22 @@ const projects = [
         id: 2,
         title: "Bugs Management App",
         description:
-            "A full-featured bug tracking application where users can log in and out, view all bugs with detailed info, add or edit bugs, and apply advanced sorting and filtering options.",
+            "A full-featured bug tracking application where users can log in and log out, view all bugs with detailed information, add new bugs or edit existing ones, and apply advanced sorting and filtering options.",
         image: "/projects_imgs/Bugs.jpg",
         tags: ["React", "Node.js", "Express", "MongoDB"],
         demoUrl: "https://missbugsproj-4.onrender.com/",
         githubUrl: "https://github.com/DariaRosen/MissBugsProj",
     },
-    // {
-    //     id: 3,
-    //     title: "E-commerce Platform",
-    //     description:
-    //         "Full-featured e-commerce platform with user authentication and payment processing.",
-    //     image: "/projects/project3.png",
-    //     tags: ["React", "Node.js", "Stripe"],
-    //     demoUrl: "#",
-    //     githubUrl: "#",
-    // },
+    {
+        id: 3,
+        title: "Portfolio Website",
+        description:
+            "A personal portfolio website showcasing information about my education and experience, my skills, projects, and more.",
+        image: "/projects_imgs/Portfolio.jpg",
+        tags: ["React", "Node.js", "Stripe"],
+        demoUrl: "#",
+        githubUrl: "#",
+    },
 ];
 
 // -------------------------------
