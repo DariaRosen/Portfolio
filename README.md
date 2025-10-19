@@ -1,6 +1,7 @@
 # 🌟 My Developer Portfolio
 
 **Live Site:** [https://vercel.com/daria-rosens-projects/portfolio](https://vercel.com/daria-rosens-projects/portfolio)
+
 Deployed automatically on Vercel.
 
 A modern, animated **developer portfolio** built with **React 19**, **Vite 7**, and **Tailwind CSS 4**.  
