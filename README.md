@@ -1,16 +1,69 @@
-# React + Vite
+🌟 My Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site: https://vercel.com/daria-rosens-projects/portfolio
 
-Currently, two official plugins are available:
+✨ A modern, animated portfolio built with React + Vite + TailwindCSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Overview
 
-## React Compiler
+This portfolio showcases my web development projects, skills, and creative work in a smooth, modern interface.
+It supports dark/light mode, is fully responsive for mobile and desktop, and includes subtle animations for an engaging user experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Built With
+Category	Technologies
+Frontend Framework	React 19
 
-## Expanding the ESLint configuration
+Bundler & Dev Server	Vite 7
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling	TailwindCSS 4
+ + clsx
+ + tailwind-merge
+
+UI Components & Icons	Radix UI
+, Lucide React
+
+Routing	React Router DOM 7
+
+Animations & Interactivity	CSS transitions & Framer Motion-style effects
+Deployment	Vercel
+✨ Features
+
+🌗 Dark & Light Mode — automatic and user-toggle support
+
+📱 Responsive Design — optimized for all screen sizes
+
+⚡ High Performance — powered by Vite’s blazing-fast build tools
+
+🎬 Smooth Animations — fade-ins, transitions, and scroll effects
+
+🧭 Easy Navigation — clean routing with React Router
+
+🔔 Interactive UI Elements — toasts, icons, hover effects
+
+# 💼 Personal Portfolio
+
+A modern, responsive **developer portfolio website** built with **React**, **Vite**, and **Tailwind CSS**.  
+It showcases my projects, skills, and background in a clean and elegant way.
+
+---
+
+## 🚀 Features
+
+- 🎨 **Sleek, minimal design** optimized for all devices  
+- ⚡ **Blazing-fast performance** with Vite  
+- 🧩 **Modular React components** for easy customization  
+- 🌙 **Dark/Light mode** support *(if implemented)*  
+- 🔗 **Dynamic project section** powered by JSON or local data  
+- 📬 **Contact form** or links to social profiles  
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|------|----------|
+| [React](https://react.dev/) | Component-based UI |
+| [Vite](https://vitejs.dev/) | Fast build tool and dev server |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
+| [Framer Motion](https://www.framer.com/motion/) | Smooth animations and transitions |
+| [Lucide React](https://lucide.dev/) | Elegant icon set |
