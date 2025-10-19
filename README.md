@@ -40,7 +40,3 @@ It includes dark/light mode, subtle animations, and responsive layouts for an en
 | **Animations** | CSS transitions, Framer Motion–style effects |
 | **Deployment** | [Vercel](https://vercel.com/) |
 
----
-
-## 🧩 Folder Structure
-
