@@ -1,69 +1,46 @@
-🌟 My Developer Portfolio
+# 🌟 My Developer Portfolio
 
-Live Site: https://vercel.com/daria-rosens-projects/portfolio
+**Live Site:** [https://vercel.com/daria-rosens-projects/portfolio](https://vercel.com/daria-rosens-projects/portfolio)
+Deployed automatically on Vercel.
 
-✨ A modern, animated portfolio built with React + Vite + TailwindCSS
-
-🎨 Overview
-
-This portfolio showcases my web development projects, skills, and creative work in a smooth, modern interface.
-It supports dark/light mode, is fully responsive for mobile and desktop, and includes subtle animations for an engaging user experience.
-
-🛠️ Built With
-Category	Technologies
-Frontend Framework	React 19
-
-Bundler & Dev Server	Vite 7
-
-Styling	TailwindCSS 4
- + clsx
- + tailwind-merge
-
-UI Components & Icons	Radix UI
-, Lucide React
-
-Routing	React Router DOM 7
-
-Animations & Interactivity	CSS transitions & Framer Motion-style effects
-Deployment	Vercel
-✨ Features
-
-🌗 Dark & Light Mode — automatic and user-toggle support
-
-📱 Responsive Design — optimized for all screen sizes
-
-⚡ High Performance — powered by Vite’s blazing-fast build tools
-
-🎬 Smooth Animations — fade-ins, transitions, and scroll effects
-
-🧭 Easy Navigation — clean routing with React Router
-
-🔔 Interactive UI Elements — toasts, icons, hover effects
-
-# 💼 Personal Portfolio
-
-A modern, responsive **developer portfolio website** built with **React**, **Vite**, and **Tailwind CSS**.  
-It showcases my projects, skills, and background in a clean and elegant way.
+A modern, animated **developer portfolio** built with **React 19**, **Vite 7**, and **Tailwind CSS 4**.  
+It showcases my web development projects, skills, and creative work in a sleek, fast, and responsive interface.
 
 ---
 
-## 🚀 Features
+## 🎨 Overview
 
-- 🎨 **Sleek, minimal design** optimized for all devices  
-- ⚡ **Blazing-fast performance** with Vite  
-- 🧩 **Modular React components** for easy customization  
-- 🌙 **Dark/Light mode** support *(if implemented)*  
-- 🔗 **Dynamic project section** powered by JSON or local data  
-- 📬 **Contact form** or links to social profiles  
+This portfolio is designed to highlight both my **technical expertise** and **design sensibility** through a smooth, modern UI.  
+It includes dark/light mode, subtle animations, and responsive layouts for an engaging user experience across devices.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|----------|--------------|
+| 🌗 **Dark & Light Mode** | Automatic detection and user-toggle support |
+| 📱 **Responsive Design** | Optimized for mobile, tablet, and desktop |
+| ⚡ **High Performance** | Powered by Vite’s blazing-fast build tools |
+| 🎬 **Smooth Animations** | Fade-ins, transitions, and scroll effects |
+| 🧭 **Easy Navigation** | Clean routing with React Router DOM |
+| 🔔 **Interactive UI** | Hover effects, icons, and toast notifications |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|----------|
-| [React](https://react.dev/) | Component-based UI |
-| [Vite](https://vitejs.dev/) | Fast build tool and dev server |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
-| [Framer Motion](https://www.framer.com/motion/) | Smooth animations and transitions |
-| [Lucide React](https://lucide.dev/) | Elegant icon set |
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend Framework** | [React 19](https://react.dev/) |
+| **Bundler & Dev Server** | [Vite 7](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS 4](https://tailwindcss.com/), [clsx](https://github.com/lukeed/clsx), [tailwind-merge](https://github.com/dcastil/tailwind-merge) |
+| **UI Components & Icons** | [Radix UI](https://www.radix-ui.com/), [Lucide React](https://lucide.dev/) |
+| **Routing** | [React Router DOM 7](https://reactrouter.com/) |
+| **Animations** | CSS transitions, Framer Motion–style effects |
+| **Deployment** | [Vercel](https://vercel.com/) |
+
+---
+
+## 🧩 Folder Structure
+
