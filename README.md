@@ -1,16 +1,43 @@
-# React + Vite
+# 🌟 My Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Site:** [https://vercel.com/daria-rosens-projects/portfolio](https://vercel.com/daria-rosens-projects/portfolio)
 
-Currently, two official plugins are available:
+Deployed automatically on Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, animated **developer portfolio** built with **React 19**, **Vite 7**, and **Tailwind CSS 4**.  
+It showcases my web development projects, skills, and creative work in a sleek, fast, and responsive interface.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Overview
 
-## Expanding the ESLint configuration
+This portfolio is designed to highlight both my **technical expertise** and **design sensibility** through a smooth, modern UI.  
+It includes dark/light mode, subtle animations, and responsive layouts for an engaging user experience across devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+| Feature | Description |
+|----------|--------------|
+| 🌗 **Dark & Light Mode** | Automatic detection and user-toggle support |
+| 📱 **Responsive Design** | Optimized for mobile, tablet, and desktop |
+| ⚡ **High Performance** | Powered by Vite’s blazing-fast build tools |
+| 🎬 **Smooth Animations** | Fade-ins, transitions, and scroll effects |
+| 🧭 **Easy Navigation** | Clean routing with React Router DOM |
+| 🔔 **Interactive UI** | Hover effects, icons, and toast notifications |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend Framework** | [React 19](https://react.dev/) |
+| **Bundler & Dev Server** | [Vite 7](https://vitejs.dev/) |
+| **Styling** | [Tailwind CSS 4](https://tailwindcss.com/), [clsx](https://github.com/lukeed/clsx), [tailwind-merge](https://github.com/dcastil/tailwind-merge) |
+| **UI Components & Icons** | [Radix UI](https://www.radix-ui.com/), [Lucide React](https://lucide.dev/) |
+| **Routing** | [React Router DOM 7](https://reactrouter.com/) |
+| **Animations** | CSS transitions, Framer Motion–style effects |
+| **Deployment** | [Vercel](https://vercel.com/) |
+
