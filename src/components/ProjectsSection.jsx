@@ -7,7 +7,7 @@ const projects = [
         description:
             "A full-stack Airbnb-style platform where users can browse, book, and host homes. Features include property listings, search, filters, user authentication, and real-time interactions.",
         image: "/projects_imgs/Airdnd.PNG",
-        tags: ["React", "Redux", "Node.js", "MongoDB", "Cloudinary"],
+        tags: ["React", "Vite", "Redux", "Node.js", "MongoDB", "Cloudinary"],
         demoUrl: "https://airdnd-backend-w11x.onrender.com",
         githubUrl: "https://github.com/DariaRosen/Airdnd",
     },
@@ -17,7 +17,7 @@ const projects = [
         description:
             "A full-featured bug tracking application where users can log in and log out, view all bugs with detailed information, add new bugs or edit existing ones, and apply advanced sorting and filtering options.",
         image: "/projects_imgs/Bugs.jpg",
-        tags: ["React", "Node.js", "Express", "MongoDB"],
+        tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
         demoUrl: "https://missbugsproj-4.onrender.com/",
         githubUrl: "https://github.com/DariaRosen/MissBugsProj",
     },
