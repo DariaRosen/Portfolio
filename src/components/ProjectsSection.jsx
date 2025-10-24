@@ -23,6 +23,16 @@ const projects = [
     },
     {
         id: 3,
+        title: "AI SaaS Landing Page",
+        description:
+            "A modern, responsive landing page built for AI SaaS startups. Developed with React, Vite, Tailwind CSS, TypeScript, and Zustand — featuring dark/light mode, animations, and reusable components for a sleek user experience.",
+        image: "/projects_imgs/LandingPage.PNG",
+        tags: ["React", "Vite", "Tailwind CSS", "TypeScript", "Zustand"],
+        demoUrl: "https://landing-page-ashen-pi.vercel.app/",
+        githubUrl: "https://github.com/DariaRosen/Landing-Page",
+    },
+    {
+        id: 4,
         title: "Portfolio Website",
         description:
             "A personal portfolio website showcasing information about my education and experience, my skills, projects, and more.",
