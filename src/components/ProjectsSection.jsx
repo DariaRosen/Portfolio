@@ -37,9 +37,9 @@ const projects = [
         description:
             "A personal portfolio website showcasing information about my education and experience, my skills, projects, and more.",
         image: "/projects_imgs/Portfolio.jpg",
-        tags: ["React", "Node.js", "Stripe"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["React", "Vite", "Node.js", "Tailwind CSS"],
+        demoUrl: "https://portfolio-weld-chi-99.vercel.app/",
+        githubUrl: "https://github.com/DariaRosen/Portfolio.git",
     },
 ];
 
