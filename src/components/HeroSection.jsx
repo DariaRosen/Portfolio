@@ -52,7 +52,7 @@ export const HeroSection = () => {
                         </a>
                     </div>
 
-                    {/* 3D Animation */}
+                    {/* 3D Animation
                     <div className="w-full h-full absolute inset-0">
                         <Canvas className="w-full h-full">
                             <Suspense fallback={<CanvasLoader />}>
@@ -64,7 +64,7 @@ export const HeroSection = () => {
                                 <pointLight position={[10, 10, 10]} intensity={0.5} />
                             </Suspense>
                         </Canvas>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
