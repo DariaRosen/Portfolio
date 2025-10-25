@@ -172,7 +172,7 @@
   60%, 100% { transform: rotate(0deg); }
 }
 
-.waving-hand{
+.waving-hand {
   animation-name: wave-animation;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -184,10 +184,15 @@
 /* 👋 Custom combined animation that respects the delay */
 .waving-hand-delayed {
   opacity: 0;
-  animation:
-    fade-in 0.7s ease-out 0.6s forwards,
+  animation: fade-in 0.7s ease-out 0.6s forwards,
     wave-animation 2.5s ease-in-out 0.6s infinite;
   transform-origin: 70% 70%;
   display: inline-block;
   font-size: 3.5rem;
+}
+
+@media (max-width: 640px) {
+  .waving-hand-delayed {
+    font-size: 2rem;
+  }
 }
