@@ -1,3 +1,4 @@
+import { PerspectiveCamera } from "@react-three/drei";
 import { ArrowDown } from "lucide-react";
 
 // This is the first section users see on the page, introducing the portfolio owner
@@ -45,6 +46,14 @@ export const HeroSection = () => {
                         <a href="#projects" className="cosmic-button">
                             View My Work
                         </a>
+                    </div>
+
+                    {/* 3D Animation */}
+                    <div className="w-full h-full absolute inset-0">
+                        <Canvas className="w-full h-full">
+                            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+                        </Canvas
+                        >
                     </div>
                 </div>
             </div>
