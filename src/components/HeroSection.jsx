@@ -25,7 +25,7 @@ export const HeroSection = () => {
                         </span>
 
                         <span
-                            className="waving-hand"
+                            className="waving-hand-delayed"
                             role="img"
                             aria-label="waving hand"
                         >
@@ -34,14 +34,14 @@ export const HeroSection = () => {
                     </h1>
 
                     {/* Subtitle / description */}
-                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4">
                         I create stellar web experiences with modern technologies.
                         Specializing in front-end development, I build interfaces that are
                         both beautiful and functional.
                     </p>
 
                     {/* Call-to-action button */}
-                    <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+                    <div className="pt-4 opacity-0 animate-fade-in-delay-5">
                         <a href="#projects" className="cosmic-button">
                             View My Work
                         </a>
