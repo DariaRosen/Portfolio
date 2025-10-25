@@ -1,5 +1,9 @@
 import { PerspectiveCamera } from "@react-three/drei";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Laptop } from "lucide-react";
+import { Suspense } from "react";
+import CanvasLoader from "./CanvasLoader";
+import { Canvas } from "@react-three/fiber";
+import LaptopModel from "./Animations3D/Laptop";
 
 // This is the first section users see on the page, introducing the portfolio owner
 export const HeroSection = () => {
@@ -51,9 +55,15 @@ export const HeroSection = () => {
                     {/* 3D Animation */}
                     <div className="w-full h-full absolute inset-0">
                         <Canvas className="w-full h-full">
-                            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-                        </Canvas
-                        >
+                            <Suspense fallback={<CanvasLoader />}>
+
+                                <PerspectiveCamera makeDefault position={[0, 0, 5]} />
+
+                                <LaptopModel scale={0.05} position={[0, 0, 0]} rotation={[0, -Math.PI / 2, 0]} />
+                                <ambientLight intensity={1} />
+                                <pointLight position={[10, 10, 10]} intensity={0.5} />
+                            </Suspense>
+                        </Canvas>
                     </div>
                 </div>
             </div>

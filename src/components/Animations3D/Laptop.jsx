@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const Laptop = (props) => {
-    const { nodes, materials } = useGLTF('/sci_-_fi_computer_game_ready/scene.gltf')
+    const { nodes, materials } = useGLTF('/models/sci_-_fi_computer_game_ready/scene.gltf')
     return (
         <group {...props} dispose={null}>
             <group scale={0.01}>
@@ -61,6 +61,6 @@ const Laptop = (props) => {
     )
 }
 
-useGLTF.preload('/sci_-_fi_computer_game_ready/scene.gltf')
+useGLTF.preload('/models/sci_-_fi_computer_game_ready/scene.gltf')
 
 export default Laptop
