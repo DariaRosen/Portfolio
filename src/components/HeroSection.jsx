@@ -12,19 +12,24 @@ export const HeroSection = () => {
                 <div className="space-y-6">
                     {/* Heading / Name */}
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                        {/* "Hi, I'm" with fade-in animation */}
-                        <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
-
-                        {/* First name with primary color and delayed fade-in */}
-                        <span className="text-primary opacity-0 animate-fade-in-delay-1">
-                            {" "}
-                            Daria
+                        <span className="opacity-0 animate-fade-in">
+                            Hi, I'm
                         </span>
 
-                        {/* Last name with gradient text and longer delay */}
+                        <span className="text-primary opacity-0 animate-fade-in-delay-1">
+                            {" "}Daria
+                        </span>
+
                         <span className="text-primary opacity-0 animate-fade-in-delay-2">
-                            {" "}
-                            Rosen
+                            {" "}Rosen{" "}
+                        </span>
+
+                        <span
+                            className="waving-hand"
+                            role="img"
+                            aria-label="waving hand"
+                        >
+                            👋
                         </span>
                     </h1>
 
