@@ -37,7 +37,11 @@ export const HeroSection = () => {
 
             {/* 🌌 3D React Atom floating around the text */}
             <div className="absolute right-[10%] top-[40%] w-[200px] h-[200px] sm:w-[260px] sm:h-[260px] md:w-[320px] md:h-[320px]">
-                <Canvas className="w-full h-full">
+                <Canvas
+                    className="absolute inset-0"
+                    gl={{ alpha: true }}    // 🔑 allows transparent background
+                    style={{ background: 'transparent' }}  // 🔑 remove white/purple block
+                >
                     <Suspense fallback={<CanvasLoader />}>
                         <PerspectiveCamera makeDefault position={[0, 0, 5]} />
                         <ambientLight intensity={1} />

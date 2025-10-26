@@ -2,15 +2,27 @@ import * as THREE from 'three'
 import { useMemo, useRef } from 'react'
 import { Trail, Float, Line, Sphere } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
+import { EffectComposer, Bloom } from '@react-three/postprocessing'
 
-export default function ReactAtom({ scale = 0.2, position = [2, 0, 0] }) {
+export default function ReactAtom({ scale = 0.25, position = [2, 0, 0] }) {
     return (
         <group scale={scale} position={position}>
-            <Float speed={4} rotationIntensity={2} floatIntensity={5}>
+            {/* Floating animation */}
+            <Float speed={3.5} rotationIntensity={1.5} floatIntensity={3}>
                 <group scale={0.6}>
                     <Atom />
                 </group>
             </Float>
+
+            {/* Postprocessing bloom for glow (keeps background transparent) */}
+            <EffectComposer>
+                {/* <Bloom
+                    intensity={1.8}
+                    radius={0.7}
+                    luminanceThreshold={0.1}
+                    mipmapBlur
+                /> */}
+            </EffectComposer>
         </group>
     )
 }
@@ -25,9 +37,9 @@ function Atom(props) {
     return (
         <group {...props}>
             {/* Orbit lines */}
-            <Line points={vertices} color={[4, 1, 10]} lineWidth={1} toneMapped={false} />
-            <Line points={vertices} color={[4, 1, 10]} lineWidth={1} rotation={[0, 0, Math.PI / 3]} />
-            <Line points={vertices} color={[4, 1, 10]} lineWidth={1} rotation={[0, 0, -Math.PI / 3]} />
+            <Line points={vertices} color={[4, 1, 10]} lineWidth={1.2} toneMapped={false} />
+            <Line points={vertices} color={[4, 1, 10]} lineWidth={1.2} toneMapped={false} rotation={[0, 0, Math.PI / 3]} />
+            <Line points={vertices} color={[4, 1, 10]} lineWidth={1.2} toneMapped={false} rotation={[0, 0, -Math.PI / 3]} />
 
             {/* Electrons */}
             <Electron rotation={[0, 0, 0]} speed={6} />
@@ -42,6 +54,7 @@ function Atom(props) {
     )
 }
 
+/* 🪐 Electron with smooth glowing trail */
 function Electron({ radius = 2.75, speed = 6, rotation = [0, 0, 0] }) {
     const electronRef = useRef()
     const orbitRef = useRef()
