@@ -6,7 +6,7 @@ import { useFrame } from '@react-three/fiber'
 export default function ReactAtom({ scale = 0.2, position = [2, 0, 0] }) {
     return (
         <group scale={scale} position={position}>
-            <Float speed={2.5} rotationIntensity={1.2} floatIntensity={2}>
+            <Float speed={4} rotationIntensity={2} floatIntensity={5}>
                 <group scale={0.6}>
                     <Atom />
                 </group>
@@ -62,7 +62,7 @@ function Electron({ radius = 2.75, speed = 6, rotation = [0, 0, 0] }) {
             <Trail
                 local={false}
                 interval={0.5}
-                width={10}
+                width={2}
                 length={2}
                 decay={0.08}
                 color={new THREE.Color(5, 2, 10)}
