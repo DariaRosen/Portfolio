@@ -47,7 +47,7 @@ export const HeroSection = () => {
                         <ambientLight intensity={1} />
                         <pointLight position={[10, 10, 10]} intensity={0.6} />
                         {/* Small, floating React atom */}
-                        <ReactAtom scale={0.25} position={[0, 0, 0]} />
+                        {/* <ReactAtom scale={0.25} position={[0, 0, 0]} /> */}
                     </Suspense>
                 </Canvas>
             </div>
