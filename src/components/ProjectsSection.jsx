@@ -18,7 +18,7 @@ const projects = [
             "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI.",
         image: "/projects_imgs/Tastebase.PNG",
         tags: ["Next.js 15", "TypeScript", "Supabase", "Tailwind CSS", "Shadcn UI", "Radix UI"],
-        demoUrl: "https://tastebase.vercel.app",
+        demoUrl: "https://tastebase-phi.vercel.app/",
         githubUrl: "https://github.com/DariaRosen/Tastebase",
     },
     {
