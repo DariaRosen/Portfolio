@@ -15,8 +15,8 @@ const projects = [
         id: 2,
         title: "Tastebase — Recipe Discovery Platform",
         description:
-            "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes Supabase auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI built with Tailwind + Shadcn. Features real-time updates, server actions, and a polished, mobile-first design.",
-        image: "/projects_imgs/Tastebase.jpg",
+            "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI.",
+        image: "/projects_imgs/Tastebase.PNG",
         tags: ["Next.js 15", "TypeScript", "Supabase", "Tailwind CSS", "Shadcn UI", "Radix UI"],
         demoUrl: "https://tastebase.vercel.app",
         githubUrl: "https://github.com/DariaRosen/Tastebase",
