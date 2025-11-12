@@ -41,7 +41,8 @@ export const ContactSection = () => {
                     I'm always open to discussing new opportunities.
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-12"> */}
+                <div className="flex justify-center">
                     <div className="space-y-8 bg-card p-8 shadow-xs">
                         <h3 className="text-2xl font-semibold mb-6">
                             {" "}
@@ -90,7 +91,8 @@ export const ContactSection = () => {
                             </div>
                         </div>
 
-                        <div className="pt-8">
+                        {/* temporarily disabled social links */}
+                        {/* <div className="pt-8">
                             <h4 className="font-medium mb-4"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
                                 <a href="#" target="_blank">
@@ -106,10 +108,11 @@ export const ContactSection = () => {
                                     <Twitch />
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
-                    <div
+                    {/* temporarily disabled */}
+                    {/* <div
                         className="bg-card p-8 rounded-lg shadow-xs"
                         onSubmit={handleSubmit}
                     >
@@ -180,7 +183,7 @@ export const ContactSection = () => {
                                 <Send size={16} />
                             </button>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
