@@ -13,13 +13,13 @@ const projects = [
     },
     {
         id: 2,
-        title: "Bugs Management App",
+        title: "Tastebase — Recipe Discovery Platform",
         description:
-            "A full-featured bug tracking application where users can log in and log out, view all bugs with detailed information, add new bugs or edit existing ones, and apply advanced sorting and filtering options.",
-        image: "/projects_imgs/Bugs.jpg",
-        tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
-        demoUrl: "https://missbugsproj-4.onrender.com/",
-        githubUrl: "https://github.com/DariaRosen/MissBugsProj",
+            "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes Supabase auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI built with Tailwind + Shadcn. Features real-time updates, server actions, and a polished, mobile-first design.",
+        image: "/projects_imgs/Tastebase.jpg",
+        tags: ["Next.js 15", "TypeScript", "Supabase", "Tailwind CSS", "Shadcn UI", "Radix UI"],
+        demoUrl: "https://tastebase.vercel.app",
+        githubUrl: "https://github.com/DariaRosen/Tastebase",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const projects = [
         description:
             "A modern, responsive landing page built for AI SaaS startups. Developed with React, Vite, Tailwind CSS, TypeScript, and Zustand — featuring dark/light mode, animations, and reusable components for a sleek user experience.",
         image: "/projects_imgs/LandingPage.PNG",
-        tags: ["React", "Vite","Node.js", "Tailwind CSS", "TypeScript", "Zustand"],
+        tags: ["React", "Vite", "Node.js", "Tailwind CSS", "TypeScript", "Zustand"],
         demoUrl: "https://landing-page-ashen-pi.vercel.app/",
         githubUrl: "https://github.com/DariaRosen/Landing-Page",
     },
@@ -40,6 +40,16 @@ const projects = [
         tags: ["React", "Vite", "Node.js", "Tailwind CSS"],
         demoUrl: "https://portfolio-weld-chi-99.vercel.app/",
         githubUrl: "https://github.com/DariaRosen/Portfolio.git",
+    },
+    {
+        id: 5,
+        title: "Bugs Management App",
+        description:
+            "A full-featured bug tracking application where users can log in and log out, view all bugs with detailed information, add new bugs or edit existing ones, and apply advanced sorting and filtering options.",
+        image: "/projects_imgs/Bugs.jpg",
+        tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
+        demoUrl: "https://missbugsproj-4.onrender.com/",
+        githubUrl: "https://github.com/DariaRosen/MissBugsProj",
     },
 ];
 
