@@ -20,9 +20,9 @@ export const AboutSection = () => {
 
                         {/* Description paragraphs */}
                         <p className="text-muted-foreground">
-                            With over 3 years of experience in software engineering, 
-                            and recently finishing a bootcamp in fullstack development, 
-                            I love to create responsive, accessible, and performant 
+                            With over 3 years of experience in software engineering,
+                            and recently finishing a bootcamp in fullstack development,
+                            I love to create responsive, accessible, and performant
                             web applications using modern technologies.
                         </p>
 
@@ -34,9 +34,9 @@ export const AboutSection = () => {
                         </p>
 
                         <p className="text-muted-foreground">
-                            Strong foundation in problem-solving and algorithmic 
-                            thinking, with an MSc in Robotics and Autonomous 
-                            Systems (with distinction). Skilled in bridging the 
+                            Strong foundation in problem-solving and algorithmic
+                            thinking, with an MSc in Robotics and Autonomous
+                            Systems (with distinction). Skilled in bridging the
                             gap between robotics, software engineering, and data-driven optimization.
                         </p>
 
@@ -49,7 +49,8 @@ export const AboutSection = () => {
 
                             {/* Download CV button */}
                             <a
-                                href=""
+                                href="/Daria_Rosen_CV.pdf"
+                                download
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download CV
@@ -71,8 +72,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Full Stack Development</h4>
                                     <p className="text-muted-foreground">
-                                        Building scalable, high-performance single-page web 
-                                        applications (SPA). Focused on clean architecture, UX/UI design, 
+                                        Building scalable, high-performance single-page web
+                                        applications (SPA). Focused on clean architecture, UX/UI design,
                                         and modern front-end best practices.
                                     </p>
                                 </div>
@@ -88,8 +89,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Software Engineering & Robotics</h4>
                                     <p className="text-muted-foreground">
-                                        Developing and integrating software modules for advanced 
-                                        robotic visual inspection systems using MATLAB, C#, and 
+                                        Developing and integrating software modules for advanced
+                                        robotic visual inspection systems using MATLAB, C#, and
                                         Python.
                                     </p>
                                 </div>
@@ -106,8 +107,8 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Leadership & Mentorship</h4>
                                     <p className="text-muted-foreground">
-                                        Guiding and onboarding new team members. Experienced in managing training 
-                                        programs, coordinating cross-functional teams, and ensuring 
+                                        Guiding and onboarding new team members. Experienced in managing training
+                                        programs, coordinating cross-functional teams, and ensuring
                                         efficient workflows in both startup and corporate environments.
                                     </p>
                                 </div>
