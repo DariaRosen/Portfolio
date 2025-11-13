@@ -13,7 +13,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Tastebase — Recipe Sharing Platform",
+        title: "Tastebase - Recipe Sharing Platform",
         description:
             "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI.",
         image: "/projects_imgs/Tastebase.PNG",
@@ -25,7 +25,7 @@ const projects = [
         id: 3,
         title: "AI SaaS Landing Page",
         description:
-            "A modern, responsive landing page built for AI SaaS startups. Developed with React, Vite, Tailwind CSS, TypeScript, and Zustand — featuring dark/light mode, animations, and reusable components for a sleek user experience.",
+            "A modern, responsive landing page built for AI SaaS startups. Developed with React, Vite, Tailwind CSS, TypeScript, and Zustand - featuring dark/light mode, animations, and reusable components for a sleek user experience.",
         image: "/projects_imgs/LandingPage.PNG",
         tags: ["React", "Vite", "Node.js", "Tailwind CSS", "TypeScript", "Zustand"],
         demoUrl: "https://landing-page-ashen-pi.vercel.app/",
@@ -53,7 +53,7 @@ const projects = [
     },
     {
         id: 6,
-        title: "Planit – Smart Planner & Task Manager",
+        title: "Planit - Smart Planner & Task Manager",
         description:
             "A modern productivity and task management app featuring a weekly planner, drag-and-drop scheduling, and seamless data syncing between client and server.",
         image: "/projects_imgs/Planit.PNG",
