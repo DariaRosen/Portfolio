@@ -13,7 +13,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Tastebase — Recipe Discovery Platform",
+        title: "Tastebase — Recipe Sharing Platform",
         description:
             "Modern Next.js App Router experience for sharing, saving, and managing recipes. Includes auth, wishlist and profile dashboards, rich recipe editor with image uploads, and responsive UI.",
         image: "/projects_imgs/Tastebase.PNG",
@@ -50,6 +50,16 @@ const projects = [
         tags: ["React", "Vite", "Node.js", "Express", "MongoDB"],
         demoUrl: "https://missbugsproj-4.onrender.com/",
         githubUrl: "https://github.com/DariaRosen/MissBugsProj",
+    },
+    {
+        id: 6,
+        title: "Planit – Smart Planner & Task Manager",
+        description:
+            "A modern productivity and task management app featuring a weekly planner, drag-and-drop scheduling, and seamless data syncing between client and server.",
+        image: "/projects_imgs/Planit.PNG",
+        tags: ["React", "Vite", "Node.js", "Express", "MongoDB", "Dnd Kit"],
+        demoUrl: "https://planit-todo-app.vercel.app/",
+        githubUrl: "https://github.com/DariaRosen/Planit-Todo-App"
     },
 ];
 
