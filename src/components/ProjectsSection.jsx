@@ -33,13 +33,15 @@ const projects = [
     },
     {
         id: 4,
-        title: "Portfolio Website",
+        title: "Photographer Landing Page",
         description:
-            "A personal portfolio website showcasing information about my education and experience, my skills, projects, and more.",
-        image: "/projects_imgs/Portfolio.jpg",
-        tags: ["React", "Vite", "Node.js", "Tailwind CSS"],
-        demoUrl: "https://portfolio-weld-chi-99.vercel.app/",
-        githubUrl: "https://github.com/DariaRosen/Portfolio.git",
+            "Luxury single-page experience for a boutique photographer. Features a Swiper coverflow hero carousel, RTL-friendly navigation, testimonial cards, pricing grid, and contact CTA. Custom Sass theming inspired by the brand palette plus a transparent logo treatment keeps the layout refined and cohesive across sections.",
+        image: "/projects_imgs/PhotographerLandingPage.PNG",
+        tags: [
+            "Next.js 15", "TypeScript", "React 19", "Swiper", "Sass/SCSS", "Radix UI"
+        ],
+        demoUrl: "https://photographer-landing-page-eight.vercel.app/",
+        githubUrl: "https://github.com/DariaRosen/Photographer-landing-page"
     },
     {
         id: 5,
@@ -61,6 +63,36 @@ const projects = [
         demoUrl: "https://planit-todo-app.vercel.app/",
         githubUrl: "https://github.com/DariaRosen/Planit-Todo-App"
     },
+        {
+        id: 7,
+        title: "Portfolio Website",
+        description:
+            "A personal portfolio website showcasing information about my education and experience, my skills, projects, and more.",
+        image: "/projects_imgs/Portfolio.jpg",
+        tags: ["React", "Vite", "Node.js", "Tailwind CSS"],
+        demoUrl: "https://portfolio-weld-chi-99.vercel.app/",
+        githubUrl: "https://github.com/DariaRosen/Portfolio.git",
+    },
+    {
+    id: 8,
+    title: "LogiDog Shipment Delay Predictor",
+    description:
+        "Logistics analytics dashboard that predicts shipment delays using a rule-based risk scoring engine. Includes an alerts cockpit, shipment detail timelines, and visual analytics so operations teams can proactively triage at‑risk shipments before they become critical.",
+    image: "/projects_imgs/LogiDog.PNG", // make sure this screenshot exists in your assets
+    tags: [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Radix UI",
+        "React Query",
+        "Recharts",
+        "Supabase"
+    ],
+    demoUrl: "https://shipment-delay-predictor.vercel.app/",
+    githubUrl: "https://github.com/DariaRosen/Shipment-Delay-Predictor",
+},
 ];
 
 // -------------------------------
